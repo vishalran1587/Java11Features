@@ -1,4 +1,5 @@
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 /*
@@ -20,6 +21,10 @@ public class Example2 {
 		String currentTime =null;
 		
 		System.out.println(Optional.ofNullable(currentTime).isEmpty());
+		
+		var map = Map.of("Vishal","Pittsburgh","Yogesh","Gandhinagar");
+		System.out.println(map);
+		System.out.println(map.get("Vishal"));
 	}
 	
 }
